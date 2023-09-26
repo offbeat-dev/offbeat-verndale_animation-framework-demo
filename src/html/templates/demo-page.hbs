@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  {{>head title='Inview Example' showScripts=showScripts}}
+</head>
+<body>
+  <!-- Header -->
+  {{#with sideNav}}
+    {{>header}}
+  {{/with}}
+
+  <!-- Main Content -->
+  <main>
+       {{>masthead}}
+       {{>featured-resource-cards}}
+       {{>cta-module}}
+       {{>cards-grid}}
+       {{>sticky-module}}
+       {{>accordion-module}} 
+  </main>
+
+  <!-- Footer -->
+  {{>footer showScripts=showScripts}}
+</body>
+</html>

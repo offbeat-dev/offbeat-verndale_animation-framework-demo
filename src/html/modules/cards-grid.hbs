@@ -1,0 +1,92 @@
+<section class="cards-grid">
+  <div class="cards-grid__container container">
+    <div class="row">
+      <animated-timeline class="col-md-4 cards-grid__card" amount-visible="1">
+        <blur-in class="cards-grid__image-wrapper">
+          <animated-element
+            style="display: block;"
+            scrub
+            translate-y="-50px, 50px"
+            start-offset="start end"
+            at="0"
+          >
+            <trigger-element scale="1.2, 1.5" event="hover" target="self" class="cards-grid__image">
+              <a href="#"><img width="545" height="370" alt="" src="images/data_center.png" /></a>
+            </trigger-element>
+          </animated-element>
+        </blur-in>
+        <fade-in-up
+          class="animated-opacity cards-grid__description-wrapper"
+          at="0.25"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, hic nostrum. Odio
+            inventore velit sit minima totam quidem eius consectetur deleniti, aperiam architecto
+            repellendus sequi alias laborum debitis quas modi.
+          </p>
+        </fade-in-up>
+        <fade-in-up at="0.75">
+         {{>button className="primary" label="Read more"}}
+        </fade-in-up>
+      </animated-timeline>
+    <animated-timeline class="col-md-4 cards-grid__card" amount-visible="1">
+        <blur-in class="cards-grid__image-wrapper">
+          <animated-element
+            style="display: block;"
+            scrub
+            translate-y="-50px, 50px"
+            start-offset="start end"
+            at="0"
+          >
+            <trigger-element scale="1.2, 1.5" event="hover" target="self" class="cards-grid__image">
+              <a href="#"><img width="545" height="370" alt="" src="images/data_center.png" /></a>
+            </trigger-element>
+          </animated-element>
+        </blur-in>
+        <fade-in-up
+          class="animated-opacity cards-grid__description-wrapper"
+          at="0.25"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, hic nostrum. Odio
+            inventore velit sit minima totam quidem eius consectetur deleniti, aperiam architecto
+            repellendus sequi alias laborum debitis quas modi.
+          </p>
+        </fade-in-up>
+        <fade-in-up at="0.75">
+         {{>button className="primary" label="Read more"}}
+        </fade-in-up>
+      </animated-timeline>
+      <animated-timeline class="col-md-4 cards-grid__card" amount-visible="1">
+        <blur-in class="cards-grid__image-wrapper">
+          <animated-element
+            style="display: block;"
+            scrub
+            translate-y="-50px, 50px"
+            start-offset="start end"
+            at="0"
+          >
+            <trigger-element scale="1.2, 1.5" event="hover" target="self" class="cards-grid__image">
+              <a href="#">
+                <img width="545" height="370" alt="" src="images/data_center.png" />
+              </a>
+            </trigger-element>
+          </animated-element>
+        </blur-in>
+        <fade-in-up
+          class="animated-opacity cards-grid__description-wrapper"
+          at="0.25"
+        >
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia, hic nostrum. Odio
+            inventore velit sit minima totam quidem eius consectetur deleniti, aperiam architecto
+            repellendus sequi alias laborum debitis quas modi.
+          </p>
+        </fade-in-up>
+        <fade-in-up at="0.75">
+         {{>button className="primary" label="Read more"}}
+        </fade-in-up>
+      </animated-timeline> 
+    </div>
+  </div>
+</section>

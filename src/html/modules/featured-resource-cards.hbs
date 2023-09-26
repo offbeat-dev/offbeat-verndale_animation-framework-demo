@@ -1,0 +1,51 @@
+<div class="featured-resource-cards container">
+  <fade-in-up style="inline-size: 100%;" bottom="50px">
+    <h1 class="featured-resource-cards__heading">Love what you do<br>and who you do it with</h1>
+  </fade-in-up>
+  <div class="two-column-content-media ">
+    <animated-timeline class="two-column-content-media__content">
+        <fade-in-left at="0">
+        <trigger-element id="arrow-1" >
+          <a href="/" class="featured-resource-cards__card">
+            <h3 class="featured-resource-cards__card-heading">Diversity, Equity & Inclusion</h3>
+            <div class="featured-resource-cards__card-copy rtf">Verndale is committed to always being a company that celebrates diversity, equity, and inclusion. We strive to recruit and retain people who are committed to creating the climate of respect that is essential for individual and company success. We recognize the barriers faced by women and other minorities in technology and are committed to organizational efforts to build respect, dignity, fairness, and equity within Verndale and our community.</div>
+            <trigger-element target="arrow-1" translate-x="0, 20px" class="featured-resource-cards__card-svg" event="hover" event="hover">
+            {{>svg name="arrow-right"}}
+            </trigger-element>
+          </a>
+        </trigger-element>
+        </fade-in-left>
+        <fade-in-left at="1">
+       <trigger-element id="arrow-2">
+
+        <a href="/" class="featured-resource-cards__card">
+          <h3 class="featured-resource-cards__card-heading">Our Internship Program</h3>
+          <div class="featured-resource-cards__card-copy rtf">Get hands-on agency experience and learn technical and soft skills while exploring your potential and building lasting relationships.</div>
+          <trigger-element target="arrow-2"  event="hover"translate-x="0, 20px" class="featured-resource-cards__card-svg" event="hover">
+          {{>svg name="arrow-right"}}
+          </trigger-element>
+          </trigger-element>
+        </a>
+      </fade-in-left>
+      <fade-in-left at="2">
+        <trigger-element id="arrow-3">
+        <a href="/" class="featured-resource-cards__card">
+          <h3 class="featured-resource-cards__card-heading">The Verndale Academy</h3>
+          <div class="featured-resource-cards__card-copy rtf">Pursue a career path you’re passionate about in a boot-camp-style forum. The Academy puts trainees through courses on various platforms working toward a full-time position at Verndale.</div>
+          <trigger-element target="arrow-3" event="hover" translate-x="0, 20px" class="featured-resource-cards__card-svg" event="hover">
+          {{>svg name="arrow-right"}}
+          </trigger-element>
+        </a>
+        </trigger-element>
+        </fade-in-left>
+    </animated-timeline>
+
+    <fade-in-right class="two-column-content-media__media" right="50px" delay="1.5">
+       <div class="two-column-content-media__media-inner">
+      <animated-element scrub translate-y="-100px, 100px" style="display:block;" >
+          <img class="two-column-content-media__image" width="545" height="370" alt="" src="images/coworkers.jpeg" />
+      </animated-element>
+      </div>
+    </fade-in-right>
+  </div>
+</div>

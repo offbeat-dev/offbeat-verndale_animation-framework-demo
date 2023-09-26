@@ -1,0 +1,39 @@
+<div class="accordion">
+  <animated-timeline>
+    <animated-element class="animated-opacity" style="display:block;" opacity="0, 1"  translate-x="-100px, 0"  times="0, 0.01" at="0">
+      <h2>FAQ</h2>
+    </animated-element>
+    <animated-element class="animated-opacity" style="display:block;" opacity="0,1"  translate-y="100px, 0"  times="0, 0.01" at="1">
+    <triggered-group class="accordion__items">
+      <div class="accordion__item">
+        <button class="accordion__item-trigger" id="panel-1">
+          <h3 class="accordion__item-title">Accordion Item 1</h3>
+          <rotate-left class="accordion__item-icon">
+          {{>icon name="plus" className="accordion__item-icon-plus" iconSize="24"}}
+          {{>icon name="minus" className="accordion__item-icon-minus" iconSize="24"}}
+          </rotate-left>
+        </button>
+        <trigger-element target="panel-1" class="accordion__item-panel" opacity="0, 1" height='0, auto' duration="0.4" autoplay>
+            <div class="accordion__item-content">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+          </div>
+        </trigger-element>
+      </div>
+      <div class="accordion__item">
+        <button class="accordion__item-trigger" id="panel-2">
+          <h3 class="accordion__item-title">Accordion Item 2</h3>
+          <rotate-left class="accordion__item-icon">
+          {{>icon name="plus" className="accordion__item-icon-plus" iconSize="24"}}
+          {{>icon name="minus" className="accordion__item-icon-minus" iconSize="24"}}
+          </rotate-left>
+        </button>
+        <trigger-element target="panel-2" class="accordion__item-panel" opacity="0, 1" height='0, auto' duration="0.4">
+            <div class="accordion__item-content">
+            <p>Nullam quis risus eget urna mollis ornare vel eu leo. Vestibulum id ligula porta felis euismod semper. Donec id elit non mi porta gravida at eget metus. Praesent commodo cursus magna, vel scelerisque nisl consectetur et. Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Maecenas sed diam eget risus varius blandit sit amet non magna. Sed posuere consectetur est at lobortis. Cras mattis consectetur purus sit amet fermentum.</p>
+          </div>
+        </trigger-element>
+      </div>
+    </triggered-group>
+    </animated-element>
+  </animated-timeline>
+</div>

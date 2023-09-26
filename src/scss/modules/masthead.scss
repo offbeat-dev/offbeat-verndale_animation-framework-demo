@@ -1,0 +1,56 @@
+@use "../core/breakpoints";
+
+.masthead-text__container {
+  inset-block-end: 5vh;
+  position: absolute;
+}
+
+.masthead-text {
+  color: var(--white);
+  font-size: 80px;
+  line-height: 1;
+  margin-block: 0;
+  padding-block: 0;
+
+  @include breakpoints.mq(tablet) {
+    font-size: 150px;
+  }
+
+  @include breakpoints.mq(tabletLandscape) {
+    font-size: 200px;
+  }
+}
+
+.masthead {
+  background-color: var(--verndale-black);
+  block-size: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.masthead-background__image-container {
+  display: block;
+  inline-size: 90vw;
+  inset-block-start: 60.5vh;
+  inset-inline-start: 20%;
+  position: absolute;
+
+  &::before {
+    content: "";
+    display: block;
+    padding-block-start: 200.4459459459%;
+  }
+
+  img {
+    block-size: auto;
+    inline-size: 100%;
+    inset: 0;
+    position: absolute;
+  }
+
+  @include breakpoints.mq(tabletLandscape) {
+    inline-size: 39.4666666667vw;
+    inset-block-start: 16.5vh;
+    inset-inline-start: 50%;
+  }
+}
