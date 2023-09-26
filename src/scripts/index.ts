@@ -1,7 +1,7 @@
 import 'focus-visible';
 import create from '@verndale/core';
 import modules from './modules';
-import 'verndale-animation-framework';
+import '@verndale/animation-framework';
 
 const isStorybook = !!document.getElementById('storybook-root');
 const body = document.querySelector('body') as HTMLBodyElement;

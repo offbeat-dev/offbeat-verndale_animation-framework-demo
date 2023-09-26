@@ -14,6 +14,10 @@ const modules: Organism[] = [
   {
     name: 'accordion',
     loader: () => import('./modules/accordion')
+  },
+  {
+    name: 'smoothScroller',
+    loader: () => import('./modules/smoothScroller')
   }
 ];
 

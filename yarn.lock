@@ -2637,6 +2637,11 @@
     "@types/express" "^4.7.0"
     file-system-cache "2.3.0"
 
+"@studio-freight/lenis@1.0.23":
+  version "1.0.23"
+  resolved "https://registry.yarnpkg.com/@studio-freight/lenis/-/lenis-1.0.23.tgz#b190531065b330353331fbfd4b92d73897289be6"
+  integrity sha512-eV/mGeHzP3D6eEH762CYBOQUMScy6ye9mhmT+GLMx10WaP7tB9OsX4kBBF4WeLgvi5ot4M3XaN2dgoLblNygRQ==
+
 "@testing-library/dom@^8.3.0":
   version "8.20.1"
   resolved "https://registry.yarnpkg.com/@testing-library/dom/-/dom-8.20.1.tgz#2e52a32e46fc88369eef7eef634ac2a192decd9f"
